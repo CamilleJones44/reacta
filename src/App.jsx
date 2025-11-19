@@ -19,18 +19,18 @@ function App() {
   )
 }
 function Counter({title}) {
-  // you'll need to add state and props here.
+  
   const [count, setCount] = useState(0);
 
   const handleIncrease = () => {
-    // This function should increase the count
+    
     setCount(count + 1);
    
   }
 
 
   const handleReset = () => {
-    // This function should increase the count
+    
     setCount(0);
   
   }
