@@ -12,6 +12,7 @@ function App() {
   return (
     <div>
       <h1> Welcome to the counter App</h1>
+      
 
       <Counter title = "My Counter App"/>
 
@@ -21,6 +22,7 @@ function App() {
 function Counter({title}) {
   
   const [count, setCount] = useState(0);
+  
 
   const handleIncrease = () => {
     
@@ -41,6 +43,7 @@ function Counter({title}) {
       <h2>{title}</h2>
       <p>Count:{count}</p>
       <button onClick={handleIncrease}>increase</button>
+      
       <button onClick={handleReset}>Reset</button>
     </div>
   )
